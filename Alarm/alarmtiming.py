@@ -12,4 +12,4 @@ alarm_hour=alarm_time[0:2]
 alarm_minute=alarm_time[3:5]
 alarm_period=alarm_time[6:8].upper()
 
-print('setting alarm....')
+print('setting alarm.....')
