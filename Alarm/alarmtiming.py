@@ -17,3 +17,5 @@ print('setting alarm...')
 
 while True:
     current_time=datetime.now()
+    current_hour=current_time.strftime('%I')
+    
