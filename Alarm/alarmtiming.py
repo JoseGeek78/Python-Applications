@@ -21,3 +21,4 @@ while True:
     current_minute=current_time.strftime('%M')
     current_period=current_time.strftime('%P')
     current_date=current_time.strftime('%D')
+    
