@@ -19,4 +19,5 @@ while True:
     current_time=datetime.now()
     current_hour=current_time.strftime('%I')
     current_minute=current_time.strftime('%M')
-    
+    current_period=current_time.strftime('%P')
+    current_date=current_time.strftime('%D')
