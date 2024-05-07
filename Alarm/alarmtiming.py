@@ -23,4 +23,10 @@ while True:
     current_date=current_time.strftime('%D')
     if current_date==alarm_date and current_period==alarm_period and current_hour==alarm_hour and current_minute==alarm_minute:
         print('*'*10)
-        
+        print('| '+'Wake up!'+' |')
+        print('*'*10)
+        if music_or_beep=='m':
+            playsound('audio.wav')
+        else:
+            winsound.Beep(freq,dur)
+        break
