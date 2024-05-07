@@ -21,4 +21,4 @@ while True:
     current_minute=current_time.strftime('%M')
     current_period=current_time.strftime('%P')
     current_date=current_time.strftime('%D')
-    
+    if current_date=alarm_date and current_period=alarm_period and current_hour and current_minute==alarm_minute:
