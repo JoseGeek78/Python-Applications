@@ -6,3 +6,4 @@ from scoreboard import Scoreboard
 
 
 from turtle import Turtle,Screen
+from paddle import Paddle
