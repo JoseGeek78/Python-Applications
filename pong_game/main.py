@@ -2,10 +2,4 @@ from turtle import Turtle,Screen
 from paddle import Paddle
 from ball import Ball
 import time
-from scoreboard import Scoreboard 
-
-
-from turtle import Turtle,Screen
-from paddle import Paddle
-from ball import Ball
-import time
+from scoreboard import Scoreboard
