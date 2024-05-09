@@ -16,3 +16,5 @@ screen.tracer(0)
 r_paddle = Paddle((350,0))
 l_paddle = Paddle((-350,0))
 ball = Ball()
+scorebord = Scoreboard()
+#screen listening and paddle controlling
