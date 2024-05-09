@@ -17,4 +17,4 @@ r_paddle = Paddle((350,0))
 l_paddle = Paddle((-350,0))
 ball = Ball()
 scorebord = Scoreboard()
-#screen listening and paddle controlling
+#Screen listening and paddle controlling
