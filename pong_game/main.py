@@ -18,3 +18,5 @@ l_paddle = Paddle((-350,0))
 ball = Ball()
 scorebord = Scoreboard()
 #Screen listening and paddle controlling
+screen.listen()
+screen.onkey(r_paddle.go_Up, "Up")
