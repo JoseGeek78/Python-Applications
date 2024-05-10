@@ -23,3 +23,6 @@ screen.onkey(r_paddle.go_Up, "Up")
 screen.onkey(r_paddle.go_Down, "Down")
 screen.onkey(l_paddle.go_Up, "w")
 screen.onkey(l_paddle.go_Down, "s")
+
+
+game_is_on = True
