@@ -31,3 +31,6 @@ while game_is_on:
     time.sleep(ball.move_speed)
     screen.update()
     ball.move()
+
+    #Detecting collision
+    
