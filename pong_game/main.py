@@ -33,4 +33,7 @@ while game_is_on:
     ball.move()
 
     #Detecting collision
-    
+    if ball.ycor() > 280 or ball.ycor() < -280:
+        ball.bounce_Y()
+        
+        
