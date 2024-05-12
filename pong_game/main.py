@@ -41,3 +41,13 @@ while game_is_on:
         ball.bounce_X()
         
     #Right paddle misses the ball
+    if ball.xcor() > 380:
+        ball.reset_position()
+        scoreboard.l_point()
+        
+    #Detect left side
+    if ball.xcor() < -380:
+        ball.reset_position()
+        scoreboard.r_point()
+        
+screen.exitonclick()
