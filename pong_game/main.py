@@ -36,4 +36,4 @@ while game_is_on:
     if ball.ycor() > 280 or ball.ycor() < -280:
         ball.bounce_Y()
         
-        
+    #Detect collision with right paddle   
