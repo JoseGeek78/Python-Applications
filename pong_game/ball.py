@@ -6,4 +6,5 @@ class Ball(Turtle):
         self.shape('circle')
         self.color('white')
         self.penup()
-        
+        self.X_move = 10
+        self.Y_move = 10
