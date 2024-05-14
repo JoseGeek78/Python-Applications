@@ -13,3 +13,6 @@ class Ball(Turtle):
     def move(self):
         new_X = self.xcor() + self.X_move
         new_Y = self.xcor() + self.Y.move
+        self.goto(new_X, new_Y)
+        
+    
