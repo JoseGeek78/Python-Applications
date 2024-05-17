@@ -10,4 +10,5 @@ class Paddle(Turtle):
         self.penup()
         self.goto(position)
         
-    def go_Up(self):        
+    def go_Up(self):
+        new_y =        
