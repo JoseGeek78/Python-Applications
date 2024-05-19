@@ -13,4 +13,4 @@ class Paddle(Turtle):
     def update_scoreboard(self):
         self.clear()
         self.goto(-100,200)
-        
+        self.write(self.l_score, align="center", font=("Courier",80,"normal"))
