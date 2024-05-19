@@ -11,4 +11,6 @@ class Paddle(Turtle):
         self.goto(position)
         
     def update_scoreboard(self):
+        self.clear()
+        self.goto(-100,200)
         
