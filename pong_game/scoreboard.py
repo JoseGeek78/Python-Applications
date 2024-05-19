@@ -17,4 +17,5 @@ class Paddle(Turtle):
         self.goto(100,200)
         self.write(self.r_score, align="center", font=("Courier",80,"normal"))
         
-    
+    def l_point(self):
+        
