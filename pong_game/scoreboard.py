@@ -10,4 +10,5 @@ class Paddle(Turtle):
         self.penup()
         self.goto(position)
         
-    
+    def update_scoreboard(self):
+        
