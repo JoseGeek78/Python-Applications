@@ -22,4 +22,5 @@ class Paddle(Turtle):
         self.update_scoreboard()
         
     def r_point(self):
-        
+        self.r_score += 1
+        self.update_scoreboard()
