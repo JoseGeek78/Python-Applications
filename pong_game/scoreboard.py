@@ -19,4 +19,4 @@ class Paddle(Turtle):
         
     def l_point(self):
         self.l_score += 1
-        
+        self.update_scoreboard()
