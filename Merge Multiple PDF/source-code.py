@@ -29,4 +29,3 @@ for file_name in pdf_files:
             os.remove(file_name)
         except Exception as e:
             print(f"Error al eliminar {file_name}: {e}")
-
